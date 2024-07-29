@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Post</title>
+  <meta http-equiv="Content-Type" name="viewport" content="width=device-width, initial-scale=1.0, text/html, charset=UTF-8">
+  <script src="js/main.js"></script>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://kit.fontawesome.com/18651f78a2.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+ <h1 style="text-align:center;">Post a message</h1>
+<!-- http://srv1.logi.li:6490/message -->
+<!-- http://srv1.logi.li:6490/message/9 -->
+<!-- js = {'sender': 9, 'receiver': 3, 'content': "I have the most beautiful honey ever existed \U00002764", 'color': '#7cddda'} -->
+
+
+<form id="postmessage">
+  <div>
+    <label for="content">Content:</label>
+    <input type="text" id="content" name="content" />
+  </div>
+  <div>
+    <label for="color">Color:</label>
+    <input type="color" id="color" name="color" />
+  </div>
+  
+  <button type="button" class="btn btn-primary" onclick="printer()">Submit</button>
+</form>
+</div>
+
+	
+</body>
+</html> 
